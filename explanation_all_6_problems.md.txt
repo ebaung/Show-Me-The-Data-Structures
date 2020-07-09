@@ -1,0 +1,18 @@
+Explanation for Show Me the Data Structures problems:
+
+1.problem_1_LRU Cache
+Here I used an ordered dictionary because all necessary operations (get, set, and keeping/changing the order of insertion of keys have O(1) time complexity.
+
+2.problem_2_file_recursion:
+Here I was specifically prohibited from using os.walk(), so I used the other os functions: os.getcwd(), os.listdir(), os.path.join(), os.path,isdir().
+Overall, the function find_files has a time complexity of: O(n^2) due to the double "for" loop.
+
+3.problem_3_Huffman_coding:
+Here I based my code on Wikipedia's info regarding Huffman coding/decoding. 
+Overall, the function find_files has a time complexity of: O(n^2) due to the double "while" loop in the decode(encoded) method.
+
+4.problem_4_Active_Directory:
+
+5.problem_5_Blockchain:
+
+6.problem_6_Union_and_intersection:
